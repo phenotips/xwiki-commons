@@ -594,6 +594,14 @@
             <groupId>org.apache.struts</groupId>
       		<artifactId>struts-core</artifactId>
           </exclusion>
+          <exclusion>
+            <groupId>org.apache.struts</groupId>
+      		<artifactId>struts-taglib</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>org.apache.struts</groupId>
+      		<artifactId>struts-tiles</artifactId>
+          </exclusion>
         </exclusions>
       </dependency>
       <!-- Generic java annotations. These superseed jsr250-api, so we need to make
